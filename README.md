@@ -13,7 +13,7 @@ Pour le faire fonctionner, suivez les étapes suivantes :
 
 **Executer le script de la base de données sur un DBMS MySQL ou MariaDB**
 
-**Assurez-vous d'avoir un server web APCHE executant le PHP**
+**Assurez-vous d'avoir un server web APACHE executant le PHP**
 
 **Deployez le projet sur votre server web et vous êtes pret pour l'execution**
 
