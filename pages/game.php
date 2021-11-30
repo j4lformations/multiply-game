@@ -6,7 +6,7 @@ if (!isset($_SESSION)) {
 $method = $_SERVER['REQUEST_METHOD'];
 
 if ($method === 'GET' && empty($_SESSION['user'])) {
-    header('Location: http://multiplygame.as/pages/login.php');
+    header('Location: http://localhost/multiply/pages/login.php');
     exit();
 }
 

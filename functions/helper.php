@@ -233,7 +233,7 @@ function loginUser(array $post)
             if ($userResult && ($userResult['mdp'] === $mdp)) {
                 $user = $pseudo;
                 $_SESSION['user'] = $user;
-                header('Location: http://multiplygame.as/pages/game.php');
+                header('Location: http://localhost/multiply/pages/game.php');
                 exit();
             }
             $errors['user'] = "User inconnu du système";

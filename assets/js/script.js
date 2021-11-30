@@ -1,7 +1,7 @@
 function updateMultiplication() {
     $.ajax({
         method: "GET",
-        url: "http://multiplygame.as/server.php",
+        url: "http://localhost/multiply/server.php",
         data: {'update': 1},
         cache: false,
         dataType: 'json'
@@ -19,7 +19,7 @@ function majTentatives() {
     let pseudo = $("#user").val();
     $.ajax({
         method: "GET",
-        url: "http://multiplygame.as/server.php",
+        url: "http://localhost/multiply/server.php",
         data: {'all': 1, 'pseudo': pseudo},
         dataType: 'json'
     }).done(function (data) {
@@ -64,7 +64,7 @@ function tentative() {
 
         $.ajax({
             method: "POST",
-            url: "http://multiplygame.as/server.php",
+            url: "http://localhost/multiply/server.php",
             data: donnee
         }).done(function (response) {
             if (statut) {
