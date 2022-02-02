@@ -8,7 +8,7 @@ function db_connexion()
 {
     $database = "multiply_game_db";
     $user = "root";
-    $pass = "";
+    $pass = "P@$$word123";
 
     $url = "mysql:host=127.0.0.1;dbname=$database;charset=utf8";
 
